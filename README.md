@@ -6,7 +6,7 @@ A simple Apollo server.
 
 At a minimum the Car schema can be a simple JSON object should include:
 
-```json
+```ts
 { id: string, make: string, model: string, year: string, VIN: string } 
 ```
 
