@@ -1,7 +1,11 @@
 const { gql } = require('apollo-server')
 
 const typeDefs = gql`
-"An owner's car"
+    type Query {
+        allCars: [Car!]!
+    }
+
+    "An owner's car"
     type Car {
         id: ID!
         owner: Owner!
