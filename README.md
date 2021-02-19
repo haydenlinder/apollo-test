@@ -12,12 +12,12 @@ At a minimum the Car schema can be a simple JSON object should include:
 
 Install dependencies:
 ```bash
-    npm install
+npm install
 ```
 
 Start the server with nodemon on port 4000:
 ```bash
-    npm run dev
+npm run dev
 ```
 
 ## API Reference:
