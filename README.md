@@ -10,8 +10,14 @@ At a minimum the Car schema can be a simple JSON object should include:
 { id: string, make: string, model: string, year: string, VIN: string } 
 ```
 
+Install dependencies:
 ```bash
     npm install
+```
+
+Start the server with nodemon on port 4000:
+```bash
+    npm run dev
 ```
 
 ## API Reference:
