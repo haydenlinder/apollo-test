@@ -14,6 +14,7 @@ const typeDefs = gql`
         "Per the requirements in the README, the year is a String"
         year: String! 
         vin: String!
+        photoUrl: String!
     }
 
     type Owner {
