@@ -2,8 +2,11 @@ const { cars, owners } = require('./data')
 
 const resolvers = {
     Query: {
-        allCars() {
+        cars() {
             return cars
+        },
+        owners() {
+            return owners
         },
     },
     Owner: {
